@@ -1,11 +1,11 @@
 import cv2
 import math
-img = cv2.imread("colored shapes image.jpg", 1)
-threshold = 150
-
+img = cv2.imread("bhailog.JPG", 1)
+threshold = 220
+img = cv2.resize(img, (600, 550))
 
 def color_dist(b1, g1, r1):
-    dist = (int(255-b1) * int(255-b1)) + (int(g1) * int(g1)) + (int(r1) * int(r1))
+    dist = (int(255-b1) * int(255-b1)) + (int(g1) * int(g1)) + (int(r1) * int(r1)) #calculate similarity to pure blue color
     return math.sqrt(dist)
 
 
