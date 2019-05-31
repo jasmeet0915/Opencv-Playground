@@ -1,5 +1,6 @@
 import cv2
-cap = cv2.VideoCapture(0)
+import time
+cap = cv2.VideoCapture(2)
 '''count = 0
 sum_x = 0
 avg_x = 0
@@ -15,6 +16,7 @@ def color_dist(b1, g1, r1):
 
 while True:
     _, frame = cap.read()
+    start = time.time()
     frame2 = cv2.resize(frame, (frame.shape[1]//5, frame.shape[0]//5))
 
     for y in range(frame2.shape[0]):
@@ -26,9 +28,10 @@ while True:
             if dist_color <= threshold * threshold:
                 frame[y*5, x*5] = [0, 0, 0]
                 frame2[y, x] = [0, 0, 0]
-
+    end = time.time()
     cv2.imshow("final video", frame2)
     cv2.imshow("real video", frame)
+    print(end-start)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
