@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-cap = cv2.VideoCapture("wand circle video 2.mp4")
+cap = cv2.VideoCapture("wand W video.mp4")
 
 # Define parameters for the required blob
 params = cv2.SimpleBlobDetector_Params()
@@ -34,6 +34,7 @@ upper_green = np.array([0, 255, 0])
 while True:
     _, frame = cap.read()
     frame = cv2.resize(frame, (frame.shape[1]//2, frame.shape[0]//2))
+    print(frame.shape)
     # locating the blob and drawing a circle around it
     keypoints = detector.detect(frame)
     frame_with_keypoints = cv2.drawKeypoints(frame, keypoints, np.array([]), (0, 0, 255), cv2.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS)
