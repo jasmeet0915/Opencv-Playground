@@ -1,6 +1,6 @@
 import cv2
 import time
-cap = cv2.VideoCapture(2)
+cap = cv2.VideoCapture(-1)
 '''count = 0
 sum_x = 0
 avg_x = 0
