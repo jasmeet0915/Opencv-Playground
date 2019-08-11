@@ -4,6 +4,7 @@
     <list default="true" id="c5fb5e7a-f832-42f0-adda-f063f7400258" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/opencv_and_dlib/facial_landmark_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencv_and_dlib/facial_landmark_detection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opencv_and_dlib/realtime_facial_landmark_detetction.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencv_and_dlib/realtime_facial_landmark_detetction.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +41,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.realtime_facial_landmark_detetction (1)">
+  <component name="RunManager" selected="Python.facial_landmark_detection">
     <configuration name="Facial_landmark_detection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencv_version" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -148,9 +149,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.facial_landmark_detection" />
         <item itemvalue="Python.realtime_facial_landmark_detetction (1)" />
         <item itemvalue="Python.realtime_facial_landmark_detetction" />
-        <item itemvalue="Python.facial_landmark_detection" />
         <item itemvalue="Python.haar_dlib_comparision" />
         <item itemvalue="Python.Facial_landmark_detection" />
       </list>
