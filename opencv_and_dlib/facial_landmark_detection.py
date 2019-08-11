@@ -34,7 +34,7 @@ for rect in rects:
     (x, y, w, h) = rect_to_bb(rect)
     cv2.rectangle(img, (x, y), (x+w, y+h), (0, 255, 255), 2)
     for point in shape:
-        cv2.circle(img, (point[0], point[1]), 1, (0, 255, 255), -1)
+        cv2.circle(img, (point[0], point[1]), 2, (0, 255, 255), -1)
 
     roi = img[y:y+h, x:x+w]
     cv2.imshow("roi", roi)
