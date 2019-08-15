@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import dlib
 
+
 def rect_to_bb(rect):
     x = rect.left()
     y = rect.top()
@@ -45,7 +46,7 @@ for rect in rects:
     #cv2.rectangle(img, (x, y), (x+w, y+h), (0, 255, 255), 2)
     for name in facial_landmarks:
         (i, j) = facial_landmarks[name]
-        if name == "jawline":
+        if name == "mouth":
             for (c1, c2) in shape[i:j]:
                 cv2.circle(img, (c1, c2), 1, (0, 0, 255), -1)
             cv2.putText(img, name, (10, 30), cv2.FONT_HERSHEY_COMPLEX, 0.7, (0, 0, 255), 2)
