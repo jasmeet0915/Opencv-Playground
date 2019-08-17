@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c5fb5e7a-f832-42f0-adda-f063f7400258" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv_and_dlib/452-4520954_joker-sticker-jokers-smile-tattoo-on-hand-clipart.png.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv_and_dlib/facial_landmark_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencv_and_dlib/facial_landmark_detection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opencv_and_dlib/joker_smile_filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencv_and_dlib/joker_smile_filter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opencv_and_dlib/realtime_facial_landmark_detetction.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencv_and_dlib/realtime_facial_landmark_detetction.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +26,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ML_Udacity" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -41,7 +41,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.joker_smile_filter">
+  <component name="RunManager" selected="Python.realtime_facial_landmark_detetction (1)">
     <configuration name="facial_landmark_detection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencv_version" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,9 +149,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.joker_smile_filter" />
-        <item itemvalue="Python.facial_landmark_detection" />
         <item itemvalue="Python.realtime_facial_landmark_detetction (1)" />
+        <item itemvalue="Python.facial_landmark_detection" />
+        <item itemvalue="Python.joker_smile_filter" />
         <item itemvalue="Python.realtime_facial_landmark_detetction" />
         <item itemvalue="Python.haar_dlib_comparision" />
       </list>
