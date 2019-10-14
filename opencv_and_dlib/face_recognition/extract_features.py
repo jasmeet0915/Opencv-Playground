@@ -21,6 +21,7 @@ embedder = cv2.dnn.readNetFromTorch("/home/jasmeet/PycharmProjects/opencv_playgr
 
 root = "/home/jasmeet/PycharmProjects/opencv_playground/opencv_and_dlib/face_recognition/dataset"
 embeddings = "/home/jasmeet/PycharmProjects/opencv_playground/opencv_and_dlib/face_recognition/embeddings.pickle"
+i=0
 
 for (roots, dirs, files) in os.walk(root, topdown=True):
     for file in files:
@@ -37,10 +38,9 @@ for (roots, dirs, files) in os.walk(root, topdown=True):
             print("...Creating embeddings...")
             embedder.setInput(face_blob)
             vec = embedder.forward()
-
+            print(os.path.basename(roots))
             knownEmbeddings.append(vec.flatten())
-            knownNames.append(dirs)
-
+            knownNames.append(os.path.basename(roots))
 data = {"embeddings": knownEmbeddings, "names": knownNames}
 f = open(embeddings, "wb")
 f.write(pickle.dumps(data))
