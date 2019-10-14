@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5fb5e7a-f832-42f0-adda-f063f7400258" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/opencv_and_dlib/face_recognition/training.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv_and_dlib/face_recognition/embeddings.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/opencv_and_dlib/face_recognition/embeddings.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv_and_dlib/face_recognition/extract_features.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencv_and_dlib/face_recognition/extract_features.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opencv_and_dlib/face_recognition/classifier.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/opencv_and_dlib/face_recognition/classifier.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opencv_and_dlib/face_recognition/recognize.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencv_and_dlib/face_recognition/recognizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opencv_and_dlib/face_recognition/training.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencv_and_dlib/face_recognition/training.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +42,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.training">
+  <component name="RunManager" selected="Python.recognizer">
     <configuration name="extract_features" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencv_version" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="realtime_facial_landmark_detetction (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="recognizer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencv_version" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,11 +114,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/opencv_and_dlib" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/opencv_and_dlib/face_recognition" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencv_and_dlib/realtime_facial_landmark_detetction.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencv_and_dlib/face_recognition/recognizer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.recognizer" />
         <item itemvalue="Python.training" />
         <item itemvalue="Python.extract_features" />
         <item itemvalue="Python.face_recognition" />
         <item itemvalue="Python.joker_smile_filter" />
-        <item itemvalue="Python.realtime_facial_landmark_detetction (1)" />
       </list>
     </recent_temporary>
   </component>

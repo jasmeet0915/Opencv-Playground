@@ -14,7 +14,7 @@ le = LabelEncoder()
 labels = le.fit_transform(data["names"])
 
 print("training model")
-classifier = SVC(C=1.0, kernel="linear")
+classifier = SVC(C=1.0, kernel="linear", probability=True)
 classifier.fit(data["embeddings"], labels)
 print("done training")
 
