@@ -43,5 +43,5 @@ for (roots, dirs, files) in os.walk(root, topdown=True):
             knownNames.append(os.path.basename(roots))
 data = {"embeddings": knownEmbeddings, "names": knownNames}
 f = open(embeddings, "wb")
-f.write(pickle.dumps(data))
+f.write(pickle.dumps(data, protocol=2))
 f.close()

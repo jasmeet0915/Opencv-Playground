@@ -20,10 +20,10 @@ print("done training")
 
 print("saving classifier")
 f = open(classifier_path, "wb")
-f.write(pickle.dumps(classifier))
+f.write(pickle.dumps(classifier, protocol=2))
 f.close()
 
 print("saving encoder file")
 f = open(encoder_path, "wb")
-f.write(pickle.dumps(le))
+f.write(pickle.dumps(le, protocol=2))
 f.close()
