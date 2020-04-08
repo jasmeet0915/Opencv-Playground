@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5fb5e7a-f832-42f0-adda-f063f7400258" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/opencv_version.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/opencv_version.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv_and_dlib/face_recognition/classifier.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/opencv_and_dlib/face_recognition/classifier.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv_and_dlib/face_recognition/recognize.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencv_and_dlib/face_recognition/recognizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv_and_dlib/face_recognition/training.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencv_and_dlib/face_recognition/training.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,24 +23,60 @@
   </component>
   <component name="ProjectId" id="1OgZG1LLzDLJ8LEpMr01tA7hvLi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.recognizer">
+  <component name="RunManager" selected="Python.bgrvideo_color_detection">
+    <configuration name="Blob_Detection_Video" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="opencv_version" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Blob_Detection_Video.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="bgrvideo_color_detection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="opencv_version" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bgrvideo_color_detection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="extract_features" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencv_version" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -56,48 +90,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencv_and_dlib/face_recognition/extract_features.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="face_recognition" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="opencv_version" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/opencv_and_dlib" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencv_and_dlib/face_recognition.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="joker_smile_filter" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="opencv_version" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/opencv_and_dlib" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencv_and_dlib/joker_smile_filter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.bgrvideo_color_detection" />
+        <item itemvalue="Python.Blob_Detection_Video" />
         <item itemvalue="Python.recognizer" />
         <item itemvalue="Python.training" />
         <item itemvalue="Python.extract_features" />
-        <item itemvalue="Python.face_recognition" />
-        <item itemvalue="Python.joker_smile_filter" />
       </list>
     </recent_temporary>
   </component>
@@ -192,5 +184,35 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1315" height="177" key="GridCell.Tab.0.bottom" timestamp="1585485936273">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1315" height="177" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1585485936273" />
+    <state width="1315" height="177" key="GridCell.Tab.0.center" timestamp="1585485936272">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1315" height="177" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1585485936272" />
+    <state width="1315" height="177" key="GridCell.Tab.0.left" timestamp="1585485936272">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1315" height="177" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1585485936272" />
+    <state width="1315" height="177" key="GridCell.Tab.0.right" timestamp="1585485936273">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1315" height="177" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1585485936273" />
+    <state x="170" y="24" key="SettingsEditor" timestamp="1585483120878">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="170" y="24" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1585483120878" />
+    <state x="354" y="216" key="com.intellij.ide.util.TipDialog" timestamp="1586170532838">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="354" y="216" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1586170532838" />
+    <state x="459" y="32" width="672" height="678" key="search.everywhere.popup" timestamp="1586170384126">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="459" y="32" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1586170384126" />
   </component>
 </project>
